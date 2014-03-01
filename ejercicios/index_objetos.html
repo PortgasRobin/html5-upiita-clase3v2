@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>JavaScript</title>
+        <script>
+         /*declarar objeto*/
+        var persona = new Object();
+        persona.nombre="Edith";
+        persona.apellido="Garrido";
+        persona.hablar=function(){
+        	document.write("<p>Binkusu no sake io </p>+")
+        };
+        
+        /*para acceder a sus funciones*/
+       persona.nombre="Lalito"
+       document.write("<p>Nombre completo" +persona.nombre+persona.apellido +" </p> y yo digo : ");
+      persona.hablar();
+      
+              /*declarar un objeto con notacion JSON(JavaScript Objet Notation) */
+             var alumno={
+             	nombre:"Germ",
+             	apellido:"Gúzman",
+             	hablar:function(){
+             		document.write("<p>hola yo soy Germ binkusu no sake io yo ho yo ho yo ho</p>");
+             	}
+             	
+             };
+             alumno.nombre="Eduardo"
+             alumno.hablar();
+             document.write("<p>hola yo soy "+ alumno.nombre+" binkusu no sake io yo ho yo ho yo ho</p>");
+             
+             /*declarar objeto carro*/
+            
+            var carro = {};
+            	carro.modelo=1965,
+            	carro.marca="munstang",
+            	carro.arrancar=function(){
+            		document.write("hola soy el munstang y hago rrrrraaaan rrrrraaaann");
+            	
+            	
+            	
+            	
+            	
+            };
+            carro.arrancar();
+             
+        </script>
+        
+
+    </head>
+    <body>
+        
+    </body>
+</html>

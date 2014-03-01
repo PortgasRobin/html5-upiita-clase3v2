@@ -5,6 +5,26 @@
         <title>Texto a numero</title>
         <script>
          /*Aquí todo el código en javaScript*/
+       // var nombrecompleto = prompt ("Teclea nombre y apellido");
+        //var edad= prompt("Teclea tu edad");
+        
+        var individuo = {};
+        	individuo.nombre=prompt ("Teclea nombre y apellido");
+        	individuo.edad=prompt("Teclea tu edad");
+        	individuo.imprime=function(a,b){
+        		alert("el noombre es: "+ a + "la edad es: " + b);
+        	};
+        	
+        	imprime(individuo.nombre,individuo.edad);
+        	individuo.hablar=function(){
+        		alert ("holaaaaaa a todos mi edad es: "+individuo.edad+ " mi nombre es: "+individuo.nombre ");
+        		//document.write("holaaaaaa a todos mi edad es: "+individuo.edad+ " mi nombre es: "+individuo.nombre );
+        		
+        	};
+        	
+        	individuo.hablar();
+        
+        
 
         </script>
     </head>

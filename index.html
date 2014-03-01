@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>mi JavaScript</title>
+		<script>
+			/*Lenguaje no tipado, no es necesaario definir el tipo de variable */
+			var numero=2;
+			//alert("Hi mundo! ");/*manda uun mensaje en pantalla*/
+			/*insertar texto en el body*/
+			/*document es un objeto que permite escribir en el body, 
+			 * como si document fuera el body y lo q hace es escribir con .write*/
+			var cadena="<h2>hola!!! esta es mi cadena</h2>";
+		
+			document.write(cadena + "<h1>  hey Cualquier mensaje </h1>");
+			/*concatenar cadenas*/
+			var cadena1="texto";
+			var cadena2="otro texto";
+			document.write ("<p>"+cadena1+cadena2+3+3+"</p>");
+			document.write (3+3+cadena1+cadena2);
+			/*sumas de decimales, erroneas por el estandar iee*/
+			document.write(0.1+0.2);
+			var nombreUsuario= prompt("como te llamas?");
+			document.write("<br/>hola <h3>"+nombreUsuario)+"</h3>";
+			
+		</script>
+		
+	</head>
+	<body>
+		<p>Aprendiendo Java script </p>
+		
+	</body>
+</html>
